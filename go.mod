@@ -1,4 +1,4 @@
-module psql-test-conn
+module github.com/VarusHsu/psql-test-conn
 
 go 1.19
 
