@@ -5,8 +5,7 @@
     # install
     go install github.com/VarusHsu/psql-test-conn@latest
     # append to env (optional)
-    export GOROOT=~/go
-    export PATH=$PATH:$GOROOT/bin
+    export PATH="$PATH:$(go env GOPATH)/bin"
     # usage
     psql-test-conn -h localhost -P 5432 -u postgres -p 123
 ```
